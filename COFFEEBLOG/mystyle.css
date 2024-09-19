@@ -16,6 +16,9 @@ h1,h2,h3{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+h2{
+    text-align: center;
+}
 /* Utilities */
 .container{
     width:80%;
@@ -42,12 +45,18 @@ h1,h2,h3{
     color: white;
 }
 /* Header */
-header{
+.site-header{
     background-image: url(img/banner.jpg);
     background-size: cover;
     height: 400px;
     text-align: center;
     color: white;
+}
+.secondary-header{
+    background-color: black;
+    color: white;
+    height: 100%;
+    text-align: center;
 }
 /* Main */
 .main-container{
@@ -71,7 +80,7 @@ header{
     text-decoration: none;
     margin-right: 20px;
 }
-/* Header */
+/* Blog */
 .blog-item{
     border-bottom: 1px solid gray;
     margin-bottom: 20px;
@@ -81,7 +90,7 @@ header{
     border-bottom: 1px solid gray;
     margin-bottom: 20px;
 }
-/* Header */
+/* Footer */
 footer{
     background-color: black;
     background-size: cover;
@@ -91,4 +100,51 @@ footer{
 }
 .my-blog{
     text-align: center;
+}
+/* Contact page    */
+.form{
+    display: flex;
+    flex-direction: column;
+}
+/*
+.image-container{
+
+}
+*/
+.inputs-container{
+    background-color: white;
+    padding: 30px;
+    margin-top: -50px;
+}
+.input-control{
+    margin-bottom: 20px;
+}
+.input-control input,
+.input-control textarea{
+    width: 65%;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 3px; 
+}
+.input-control label{
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+}
+
+/*practice*/
+
+h4{
+    text-align: center;
+}
+.practice{
+    display: flex;
+    flex-direction: row;
+}
+.practice img{
+    width: 50%;
+}
+.practice p{
+    width:50%;
+    margin-left: 20px;
 }
